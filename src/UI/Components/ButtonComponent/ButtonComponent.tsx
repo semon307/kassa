@@ -12,7 +12,6 @@ export type ResultType = {
 }
 export const ButtonComponent = () => {
     const [activePopUp, setActivePopUp] = useState<boolean>(false)
-    const [notification, setNotification] = useState<boolean>(false)
     const reasonsState = useSelector<AppRootStateType, Array<ReasonType>>(state => state.reasons)
     const reasons = reasonsState.map(r => r.name)
     const products = useSelector<AppRootStateType, Array<SelectedProductType>>(state => state.selectedProducts)
