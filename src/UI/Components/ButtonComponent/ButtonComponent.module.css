@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.addPackBlockWrapper {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.preloader{
+    width: 100px;
+    height: 100px;
+}
+.error {
+    color: red;
+}

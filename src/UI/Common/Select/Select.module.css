@@ -1,0 +1,33 @@
+.select .main {
+    border: 1px solid black;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 40px;
+    width: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+.items {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid black;
+    width: 190px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 9999;
+
+}
+.item.selected {
+    background-color: rgba(198, 198, 246, 0.44);
+    width: 190px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #79849B;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 5px;
+}
